@@ -1,7 +1,7 @@
 {
   "name": "package-script-manager",
   "description": "package.json scripts with Javascript -- because dynamic configs are better.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bin": {
     "psm": "./index.js"
   },

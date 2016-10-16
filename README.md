@@ -5,7 +5,7 @@ Like package scripts? Dislike that they're in JSON?
 psm adds Javascript to your `package.json` scripts.
 
 ## Installation
-`yarn add --dev package-script-manager` (or `npm install --devDependencies package-script-manager` if you're not hip on yarn yet)
+`npm install --devDependencies package-script-manager` (`npm i -D package-script-manager`)
 
 ## Usage
 - Create `psm.js` as a sibling to `package.json`. Inside of `psm.js`, `module.exports` an object.
