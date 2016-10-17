@@ -29,8 +29,8 @@ const minifyable = [
 ]
 
 module.exports = {
-  minify: `static-minifier --watch --input-dirs=${minifyable.join(',')} --output-dir=dist`,
-  start: `npm-run-all -p minify psm:watch`
+  "minify": `static-minifier --watch --input-dirs=${minifyable.join(',')} --output-dir=dist`,
+  "start": "npm-run-all -p minify psm:watch"
 }
 ```
 
