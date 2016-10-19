@@ -4,6 +4,8 @@ Like package scripts? Dislike that they're in JSON?
 
 psm adds Javascript to your `package.json` scripts.
 
+📰 [Read all about it!](https://corysimmons.com/writings/2016/node/introducing-package-script-manager)
+
 ## Installation
 `npm install --devDependencies package-script-manager` (`npm i -D package-script-manager`)
 
