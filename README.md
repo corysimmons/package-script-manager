@@ -29,7 +29,9 @@ const minifyable = [
 ]
 
 module.exports = {
+  // Minify all css, js, and images
   "minify": `static-minifier --watch --input-dirs=${minifyable.join(',')} --output-dir=dist`,
+  // Watch static assets to minify, as well as automatically updating npm scripts when psm.js is changed.
   "start": "npm-run-all -p minify psm:watch"
 }
 ```
