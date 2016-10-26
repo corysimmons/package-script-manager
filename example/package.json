@@ -1,0 +1,42 @@
+{
+  "name": "example-psm-project",
+  "version": "0.1.0",
+  "description": "An example of psm usage in a website",
+  "author": "Glenn Antoine <me@glennantoine.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/corysimmons/package-script-manager"
+  },
+  "bugs": "https://github.com/corysimmons/package-script-manager/issues",
+  "keywords": [
+    "npm",
+    "package-script-manager",
+    "psm",
+    "psm example"
+  ],
+  "scripts": {
+    "postinstall": "psm psm.js package.json"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "browser-sync": "^2.12.8",
+    "chokidar": "^1.6.1",
+    "clean-css": "^3.4.20",
+    "copyfiles": "^1.0.0",
+    "eslint": "^3.8.1",
+    "imagemin-cli": "^3.0.0",
+    "mkdirp": "^0.5.1",
+    "npm-run-all": "^2.1.1",
+    "onchange": "^2.4.0",
+    "package-script-manager": "^1.0.1",
+    "postcss-cli": "^2.5.2",
+    "rimraf": "^2.5.4",
+    "svg-sprite-generator": "0.0.7",
+    "svgo": "^0.6.6",
+    "uglify-js": "^2.6.2"
+  },
+  "dependencies": {
+    "eslint": "^3.8.1"
+  }
+}
