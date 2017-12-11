@@ -1,5 +1,7 @@
 # Package Script Manager
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/corysimmons/package-script-manager.svg)](https://greenkeeper.io/)
+
 Like package scripts? Dislike that they're in JSON?
 
 psm adds Javascript to your `package.json` scripts.
